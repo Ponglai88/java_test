@@ -7,8 +7,10 @@ import java.util.Date;
 public class LpUser {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private Long id;
     @Column(name = "userId")
-    private Long userId;
+    private String userId;
 
     @Column(name = "amount")
     private String amount;
