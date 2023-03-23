@@ -20,5 +20,5 @@ public class LpUser {
     @Column(name = "user_time")
     private Date user_time;
 
-    // æ„é€ å‡½æ•°ã€Getter å’Œ Setter æ–¹æ³•
+    // ÌÛ³y¨ç?¡BGetter ©M Setter ¤èªk
 }
