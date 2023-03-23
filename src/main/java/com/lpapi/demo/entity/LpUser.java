@@ -5,17 +5,20 @@ import java.util.Date;
 @Entity
 @Table(name = "lp_user")
 public class LpUser {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "userId")
-    private Long userId;
+    @Column(name = "id")
+    private int id;
+
+    @Column(name = "uesr_id")
+    private String uesr_id;
 
     @Column(name = "amount")
     private String amount;
 
-    @Column(name = "time")
-    private Date time;
+    @Column(name = "user_time")
+    private Date user_time;
 
-
-    // Getters and setters
+    // 构造函数、Getter 和 Setter 方法
 }
